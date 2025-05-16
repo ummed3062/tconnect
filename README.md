@@ -1,4 +1,4 @@
-TConnect - Backend System
+#TConnect - Backend System:
 Trainer Connect is a backend application built with Spring Boot and MySQL, designed to streamline interaction between Employers and Applicants. This platform supports job postings, applicant management, and profile handling with secure JWT-based authentication.
 
 Whether you're posting jobs or applying for them, Trainer Connect provides a scalable API foundation for building robust job recruitment platforms.
