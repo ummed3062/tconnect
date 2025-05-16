@@ -2,6 +2,5 @@ package com.tconnect.dto;
 
 public enum AccountType {
 
-	APPLICANT,
-	EMPLOYER
+	APPLICANT, EMPLOYER, ADMIN
 }
