@@ -22,7 +22,7 @@ import com.tconnect.service.ProfileService;
 @RestController
 @CrossOrigin
 @RequestMapping("/profiles")
-//@Validated
+@Validated
 public class ProfileAPI {
 	
 	@Autowired

@@ -15,7 +15,7 @@ public class SecurityConfig {
         http
             .csrf().disable()
             .authorizeHttpRequests(auth -> auth
-                .requestMatchers("/users/check", "/users/register", "/users/login", "/users/changePass", "/users/sendOtp/{email}", "/users/verifyOtp/{email}/{otp}", "/jobs/*").permitAll()
+                .requestMatchers("/users/check", "/users/register", "/users/login", "/users/changePass", "/users/sendOtp/{email}", "/users/verifyOtp/{email}/{otp}", "/jobs/*", "/jobs/get/{id}", "/jobs/apply/{id}", "/jobs/postedBy/{id}", "/jobs/history/{id}/{applicationStatus}").permitAll()
                 .anyRequest().authenticated()
             )
             .httpBasic(); // Optional: enables basic auth for protected endpoints

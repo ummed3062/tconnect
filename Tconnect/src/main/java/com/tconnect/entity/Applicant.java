@@ -27,8 +27,6 @@ public class Applicant {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private Long id;
-
 	private Long applicantId;
 	private String name;
 	private String email;
