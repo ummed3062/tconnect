@@ -62,7 +62,7 @@ Authorization: Bearer your_token_here
 🚀 Getting Started (Development Setup)
 
 Clone the repository:
-git clone [https://github.com/your-username/trainer-connect.git](https://github.com/ummed3062/tconnect)
+git clone [https://github.com/ummed3062/tconnect](https://github.com/ummed3062/tconnect)
 
 Set up database credentials in:
 src/main/resources/application.properties
