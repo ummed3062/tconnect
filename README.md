@@ -75,4 +75,5 @@ Application runs at: http://localhost:8081
 🤝 Contributing
 
 Open to contributions! Whether it’s bug fixes, enhancements, or documentation improvements — feel free to fork and submit a pull request.
+If you have any questions or issues, please contact the developer at ummedsingh3062000@gmail.com.
 
