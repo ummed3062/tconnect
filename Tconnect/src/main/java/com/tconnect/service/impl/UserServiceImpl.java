@@ -121,10 +121,10 @@ public class UserServiceImpl implements UserService {
 		notificationService.sendNotification(noti);
 		return new ResponseDTO("Password changed successfully.");
 	}
-//
-//	@Override
-//	public UserDTO getUserByEmail(String email) throws JobPortalException {
-//		return userRepository.findByEmail(email).orElseThrow(() -> new JobPortalException("USER_NOT_FOUND")).toDTO();
-//	}
+
+	@Override
+	public UserDTO getUserByEmail(String email) throws JobPortalException {
+		return userRepository.findByEmail(email).orElseThrow(() -> new JobPortalException("USER_NOT_FOUND")).toDTO();
+	}
 
 }
